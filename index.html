@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- my css link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--  all icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Raiken Bookmark App</title>
+</head>
+
+<body>
+<header>
+    <nav class="nav container flex">
+        <div class="nav-icon__menu nav-icon">
+            <i class='bx bx-menu-alt-left nav-icon'></i>
+        </div>
+
+        <ul class="nav-category-list" id="nav-category-list">
+            <a class="nav-icon__close nav-icon">
+                <i class='bx bx-x nav-icon'></i>
+            </a>
+
+            <li class="nav-category-item">
+                <a href="#" class="nav-category-link">Category 1</a>
+            </li>
+            <li class="nav-category-item">
+                <a href="#" class="nav-category-link">Category 2</a>
+            </li>
+        </ul>
+
+        <div class="nav-user-section flex">
+            <a href="#" class="nav-btn btn__dark">+ add</a>
+
+            <div class="nav-icon__user nav-icon">
+                <i class='bx bx-user-circle nav-icon'></i>
+            </div>
+
+            <!-- popup menu -->
+            <div class="nav-user-menu">
+                <ul class="user-menu-list flex">
+                    <li class="user-menu-item">
+                        <a href="#" class="user-menu-link">Account</a>
+                    </li>
+                    <li class="user-menu-item">
+                        <a href="#" class="user-menu-link">Settings</a>
+                    </li>
+                    <li class="user-menu-item">
+                        <a href="#" class="user-menu-link">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="main section container grid">
+    <h1 class="section-title">Your Bookmarks</h1>
+
+    <div class="bookmarks-container grid">
+        <div class="bookmark">
+            <div class="bookmark-img">
+                <img src="./assets/img/card-bg.jpg" alt="">
+            </div>
+            <div class="bookmark-content">
+                <h3 class="bookmark-title">Bookmark Title</h3>
+                <a href="#" class="bookmark-link">Bookmark link</a>
+
+                <p class="bookmark-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequatur ipsam
+                    maxime modi natus officiis quas sapiente tempore, tenetur totam.</p>
+
+                <div class="bookmark-settings flex">
+                    <div class="bookmark-icon">
+                        <i class='bx bx-like'></i>
+                    </div>
+                    <div class="bookmark-icon">
+                        <i class='bx bx-bookmark'></i>
+                    </div>
+                    <div class="bookmark-icon">
+                        <i class='bx bx-message-x'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bookmark">
+            <div class="bookmark-img">
+                <img src="./assets/img/card-bg.jpg" alt="">
+            </div>
+            <div class="bookmark-content">
+                <h3 class="bookmark-title">Bookmark Title</h3>
+                <a href="#" class="bookmark-link">Bookmark link</a>
+
+                <p class="bookmark-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequatur ipsam
+                    maxime modi natus officiis quas sapiente tempore, tenetur totam.</p>
+
+                <div class="bookmark-settings flex">
+                    <div class="bookmark-icon">
+                        <i class='bx bx-like'></i>
+                    </div>
+                    <div class="bookmark-icon">
+                        <i class='bx bx-bookmark'></i>
+                    </div>
+                    <div class="bookmark-icon">
+                        <i class='bx bx-message-x'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- my script file -->
+<script src="./assets/js/app.js"></script>
+</body>
+
+</html>

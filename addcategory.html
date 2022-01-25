@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--  css file  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--  all icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Raiken Bookmark App</title>
+</head>
+<body>
+<!--nav-->
+<header>
+    <nav class="nav container flex">
+        <div class="nav-icon__menu nav-icon">
+            <i class='bx bx-menu-alt-left nav-icon'></i>
+        </div>
+
+        <ul class="nav-category-list" id="nav-category-list">
+            <a class="nav-icon__close nav-icon">
+                <i class='bx bx-x nav-icon'></i>
+            </a>
+
+            <li class="nav-category-item">
+                <a href="#" class="nav-category-link">Category 1</a>
+            </li>
+            <li class="nav-category-item">
+                <a href="#" class="nav-category-link">Category 2</a>
+            </li>
+        </ul>
+
+        <div class="nav-user-section flex">
+            <a href="#" class="nav-btn btn__dark">+ add</a>
+
+            <div class="nav-icon__user nav-icon">
+                <i class='bx bx-user-circle nav-icon'></i>
+            </div>
+
+            <!-- popup menu -->
+            <div class="nav-user-menu">
+                <ul class="user-menu-list flex">
+                    <li class="user-menu-item">
+                        <a href="#" class="user-menu-link">Account</a>
+                    </li>
+                    <li class="user-menu-item">
+                        <a href="#" class="user-menu-link">Settings</a>
+                    </li>
+                    <li class="user-menu-item">
+                        <a href="#" class="user-menu-link">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="main section container grid">
+    <h1 class="section-title">Add New Bookmark</h1>
+
+    <div class="form-card">
+        <form action="" class="bookmark-form">
+            <div class="form-input">
+                <label for="category-name">
+                    Category Name
+                </label>
+                <input type="text" id="category-name" class="bookmark-input" enterkeyhint="end"
+                       placeholder="Anime or something... xd">
+            </div>
+            <div class="form-buttons flex">
+                <input type="reset" class="btn btn__red" value="Cancel">
+                <input type="submit" class="btn btn__dark" value="submit">
+            </div>
+        </form>
+    </div>
+</main>
+<!-- my script file -->
+<script src="./assets/js/app.js"></script>
+</body>
+</html>
