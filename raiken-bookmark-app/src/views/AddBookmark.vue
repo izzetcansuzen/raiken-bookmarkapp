@@ -22,6 +22,7 @@
           <input type="text" id="bookmark-title" class="bookmark-input" enterkeyhint="next"
                  placeholder="My Bookmark Title..." v-model="bookmarkItem.bookmarkTitle">
         </div>
+        <!--Başlık değerinin uzunluğunu kontrol etmek için burası-->
         <!--{{ titleLength }}-->
         <div class="form-input">
           <label for="bookmark-link">
@@ -99,7 +100,7 @@ export default {
       if (this.bookmarkItem.bookmarkTitle.length >= 6) {
         return null;
       } else {
-        return "sayı 6 dan büyük olmalı !";
+        return "Başlık 6 karakterden fazla olmalı !";
       }
     }
   },
