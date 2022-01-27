@@ -1,0 +1,95 @@
+{
+  "bookmarks": [
+    {
+      "bookmarkTitle": "123123",
+      "bookmarkCategory": "Movie",
+      "bookmarkLink": "https://v3.vuejs.org/",
+      "bookmarkText": "12313123123",
+      "id": 1
+    },
+    {
+      "bookmarkTitle": "123123",
+      "bookmarkCategory": "123123",
+      "bookmarkLink": "https://v3.vuejs.org/",
+      "bookmarkText": "123123",
+      "id": 2
+    },
+    {
+      "bookmarkTitle": "My new bookmark",
+      "bookmarkCategory": "Demon Slayer",
+      "bookmarkLink": "https://v3.vuejs.org/",
+      "bookmarkText": "hello from new bookmark\n",
+      "id": 3
+    },
+    {
+      "bookmarkTitle": null,
+      "bookmarkCategory": null,
+      "bookmarkLink": null,
+      "bookmarkText": null,
+      "id": 4
+    },
+    {
+      "bookmarkTitle": null,
+      "bookmarkCategory": null,
+      "bookmarkLink": null,
+      "bookmarkText": null,
+      "id": 5
+    },
+    {
+      "bookmarkTitle": "123123",
+      "bookmarkCategory": "Dev",
+      "bookmarkLink": "123123123",
+      "bookmarkText": "123123",
+      "id": 6
+    },
+    {
+      "bookmarkTitle": "123123123123123",
+      "bookmarkCategory": "123123",
+      "bookmarkLink": "https://v3.vuejs.org/",
+      "bookmarkText": "213123123123123",
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "categoryName": "Anime",
+      "id": 1
+    },
+    {
+      "categoryName": "Movie",
+      "id": 2
+    },
+    {
+      "categoryName": "Dev",
+      "id": 3
+    },
+    {
+      "categoryName": "try new",
+      "id": 4
+    },
+    {
+      "categoryName": "123123",
+      "id": 5
+    },
+    {
+      "categoryName": "Songs",
+      "id": 6
+    },
+    {
+      "categoryName": "Edits",
+      "id": 7
+    },
+    {
+      "categoryName": "Demon Slayer",
+      "id": 8
+    },
+    {
+      "categoryName": "My new category for try somethings",
+      "id": 9
+    },
+    {
+      "categoryName": "new category for try new system",
+      "id": 10
+    }
+  ]
+}
